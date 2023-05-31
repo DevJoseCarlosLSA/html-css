@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="/Arquivos do Curso/Curso HTML5 e CSS3 módulo 1 ao 5/html-css-master/desafios/favicon.ico.png"
+        type="image/x-icon">
+    <link rel="shortcut icon"
+        href="/Arquivos do Curso/Curso HTML5 e CSS3 módulo 1 ao 5/html-css-master/desafios/favicon.ico.png"
+        type="image/x-icon">
+    <title>Tags HTML</title>
+</head>
+
+
+</html>
+<style>
+    body {
+        font-family: normal 16px bold Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    .paragrafos>h2 {
+        display: none;
+    }
+
+    .paragrafos:hover>h2 {
+        display: block;
+        color: bisque;
+        background-color: #252525;
+        width: 300px
+    }
+
+    .paragrafos:hover {
+        color: chartreuse;
+    }
+
+    .paragrafos:hover::before {
+        color: rgb(65, 145, 34);
+        background-color: #252525;
+        content: "use a tag <p>";
+    }
+
+    .titulos>h2 {
+        display: none;
+    }
+
+    .titulos :hover>h2 {
+        display: block;
+        color: bisque;
+        background-color: #252525;
+        width: 300px
+    }
+
+    .titulos:hover::before {
+        color: rgb(65, 145, 34);
+        background-color: #252525;
+        content: "use a tag <p>";
+    }
+
+    .titulos :hover {
+        color: rgb(0, 183, 255);
+
+    }
+</style>
+
+
+<body>
+    <h1>Tags em HTML</h1>
+    <h3>Em HTML5, podemos inserir os elementos</h3>
+    <ul type="square">
+        <h2 class="paragrafos">
+            <li>Paragrafos</li>
+        </h2>
+        <h2 class="titulos">
+            <li>Títulos</li>
+        </h2>
+        <h2 class="imagens">
+            <li>Imagens</li>
+        </h2>
+        <h2 class="abreviacoes">
+            <li>Abreviações</li>
+        </h2>
+        <h2 class="codigos-fonte">
+            <li>Códigos-fonte</li>
+        </h2>
+        <h2 class="listas numeradas">
+            <li>Listas numeradas</li>
+        </h2>
+        <h2 class="listas com demarcacoes">
+            <li>Listas com demarcações</li>
+        </h2>
+        <h2 class="eu">
+            <li>Eu</li>
+        </h2>
+        <h2 class="nem eu">
+            <li>Nem Eu</li>
+        </h2>
+    </ul>
+
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body {
+    background-color: #9EE9F0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #0e393d;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #74ABB0;
+    color: white;
+}
+
+h2 {
+    color: #0e1111;
+}
+
+.basico {
+    color: #495FF5;
+}
+
+.intermediario {
+    color: #5137DE;
+}
+
+.avancado {
+    color: #9f59bd;
+
+}
+
+.destaque {
+    background-color: rgb(87, 218, 211);
+}
