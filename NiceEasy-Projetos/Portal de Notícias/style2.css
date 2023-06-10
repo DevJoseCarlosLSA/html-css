@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    font: italic bolder 28px 'Noto Serif TC', serif;
+
+}
+
+body {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(17, 38, 73, 0.473);
+    width: auto;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1900;
+    font-size: 30px;
+}
+
+h2 {
+    color: rgb(7, 7, 70);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: justify;
+}
+
+main ul li {
+    display: inline-block;
+}

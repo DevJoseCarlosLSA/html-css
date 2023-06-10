@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+:root {
+    --cor0: #FFFFFF;
+    --cor1: #999999;
+    --cor2: #EBB101;
+    --cor3: #1D1D21;
+    --cor4: #000000;
+
+    --fonte-padrao: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --fonte-destaque: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {   
+    height: 96vh;
+    background-image: url('imagens/favicon.ico');
+    background-repeat:repeat-y;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #000000;
+    font-family: var(--fonte-padrao);
+    text-decoration-color: rebeccapurple ;
+    color: rgb(30, 219, 236);
+    margin: auto;
+    padding: 10px;
+}
+
+header {    
+    background-color: rgb(233, 208, 128);
+    min-height: 150px;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 60px;
+}
+
+header p {
+    font-family: var(--fonte-destaque);
+}
+
+#container {
+    background-color: rgb(9, 236, 13);
+    position: relative;
+    border: 5px solid red;
+    border-radius: 5px;
+    height:700px;
+    width: 100%;
+    max-width: 1200px;    
+    max-height: 500px;    
+    margin: auto;
+    padding: 100% auto;
+}
+#d1{
+    background-image:  url('imagens/Site-news-9-papper 800.png');
+    position: absolute;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 40%;
+}
+#d2{
+    background-image:  url('imagens/man-1000.jpg');
+    position: absolute;
+    background-size: 100% 100%;
+    right: 0;
+    bottom: 50%;
+    height: 50%;
+    width: 60%;
+}
+#d3{
+    background-image:  url('imagens/book-400.jpg');
+    position: absolute;
+    background-size: 100% 100%; 
+    right: 30%;
+    bottom: 0%;  
+    height: 50%;
+    width: 30%;
+}
+#d4{
+    background-image:  url('imagens/coffee-400.jpg');
+    position: absolute;
+    background-size: 100% 100%;
+    right: 0%;
+    top: 50%;
+    height: 50%;
+    width: 30%;
+}
+article {
+    background-color: rgb(205, 243, 147);
+    background-image: url('imagens/cup-1280.jpg');
+    background-repeat: no-repeat;
+    position: absolute;     
+    background-size: 100% 100%;
+}
+
+main {    
+    background-color: blue;
+    background-size: 100% 100%;
+    position: absolute;
+    min-width: 300px;
+    max-width: auto;
+    margin: auto;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+aside {
+    background-color: rgb(250, 159, 159);
+}
