@@ -12,18 +12,16 @@
 }
 
 body {   
-    height: 96vh;
-    background-image: url('imagens/favicon.ico');
-    background-repeat:repeat-y;    
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+    height: 100%;
+    width: 100%;
+    height:100vh;
     background-color: #000000;
     font-family: var(--fonte-padrao);
     text-decoration-color: rebeccapurple ;
+    position: absolute;
     color: rgb(30, 219, 236);
-    margin: auto;
-    padding: 10px;
+    background: black url('imagens/favicon.ico') center center/cover repeat fixed;
+    max-width: 1100px;
 }
 
 header {    
@@ -32,6 +30,7 @@ header {
     text-align: left;
     padding-left: 40px;
     margin-top: 60px;
+    border: 5px solid black;
 }
 
 header p {
@@ -84,13 +83,6 @@ header p {
     height: 50%;
     width: 30%;
 }
-article {
-    background-color: rgb(205, 243, 147);
-    background-image: url('imagens/cup-1280.jpg');
-    background-repeat: no-repeat;
-    position: absolute;     
-    background-size: 100% 100%;
-}
 
 main {    
     background-color: blue;
@@ -102,9 +94,43 @@ main {
     margin-bottom: 3px;
     border-radius: 10px;
     padding: 5px;
-
+}    
+article {
+    background-color: rgb(205, 243, 147);
+    background-size: 100% 100%;
+    border: 10px solid black;
+}
+.corpus{
+    background-color: rgba(9, 236, 13, 0);
+    position: relative;
+    border: 25px solid red;
+    border-radius: 5px;
+    width: 95%;
+    max-width: 1800px;     
+    margin: 5px;
+}
+#m1{ 
+    border: 5px solid #140779;
+}
+#m1 img{
+    width: 100%;
+    height: 100%;
+    bottom: -20%;
+    border-radius: 5;
+}
+.corpus>h2{
+    margin-top: 0%;
+    top: top center;
+    text-align: center;
+    color: rgb(159, 7, 7) ;
+}
+.corpus>p{
+    color: black;
 }
 
 aside {
     background-color: rgb(250, 159, 159);
+    
+    border: 40px solid rgb(145, 10, 50);
+
 }
