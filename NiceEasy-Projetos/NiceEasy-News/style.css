@@ -15,26 +15,45 @@ body {
     height: 100%;
     width: 100%;
     height:100vh;
-    background-color: #000000;
     font-family: var(--fonte-padrao);
     text-decoration-color: rebeccapurple ;
     position: absolute;
-    color: rgb(30, 219, 236);
-    background: black url('imagens/favicon.ico') center center/cover repeat fixed;
-    max-width: 1100px;
+    background: rgba(5, 110, 124, 0.618) center center/cover repeat fixed;
+    max-width: 1200px;
 }
 
 header {    
-    background-color: rgb(233, 208, 128);
-    min-height: 150px;
-    text-align: left;
-    padding-left: 40px;
-    margin-top: 60px;
-    border: 5px solid black;
+    background-image: linear-gradient(to right, rgb(158, 254, 171), rgb(88, 168, 169),rgb(102, 171, 129), rgb(62, 164, 125));
+    font-family: var(--fonte-destaque);
+    font-size: 1em;  
+    font-weight: bold;
+    max-height: 150px;
+    text-align: left center;
+    margin:0px;
+    border: 5px solid rgba(0, 0, 0, 0.353);
+    border-radius: 10px;
 }
 
-header p {
+header>p {
+    font-family: var(--fonte-destaque);    
+    font-size: 1.2em;  
+    font-weight: bold;
+    font-style: italic;  
+    color:#0960ec;
+    text-align: left;
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, 0);
+}
+header> nav{
     font-family: var(--fonte-destaque);
+    font-size: 1.4em;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, 0);
+    margin: 10px;
+    color: #EBB101;
+    background: rgb(242, 188, 212);
+    box-shadow: 3px 1px 5px 1px rgba(0, 0, 0, 0.36);
 }
 
 #container {
@@ -42,11 +61,9 @@ header p {
     position: relative;
     border: 5px solid red;
     border-radius: 5px;
-    height:700px;
-    width: 100%;
-    max-width: 1200px;    
-    max-height: 500px;    
-    margin: auto;
+    height:500px;
+    width: 100%;       
+    margin: 0 ;
     padding: 100% auto;
 }
 #d1{
@@ -84,48 +101,69 @@ header p {
     width: 30%;
 }
 
-main {    
+main {
     background-color: blue;
-    background-size: 100% 100%;
-    position: absolute;
-    min-width: 300px;
-    max-width: auto;
-    margin: auto;
-    margin-bottom: 3px;
     border-radius: 10px;
-    padding: 5px;
 }    
 article {
     background-color: rgb(205, 243, 147);
-    background-size: 100% 100%;
     border: 10px solid black;
+    width: 100%;    
+    padding: 0px;
 }
 .corpus{
     background-color: rgba(9, 236, 13, 0);
     position: relative;
-    border: 25px solid red;
+    border: 1px solid rgba(6, 6, 6, 0.423);
     border-radius: 5px;
-    width: 95%;
+    width: 100%;
+    height: 100%;
     max-width: 1800px;     
-    margin: 5px;
+    padding: 0 auto;
+    margin: 0 auto;
 }
 #m1{ 
-    border: 5px solid #140779;
+    border: 5px solid #08080d3b;
+    background-color: white;
+
 }
 #m1 img{
     width: 100%;
     height: 100%;
-    bottom: -20%;
-    border-radius: 5;
+    border-radius: 5px;
 }
-.corpus>h2{
-    margin-top: 0%;
-    top: top center;
+#m2{ 
+    border: 5px solid #08080d3b;
+    background-color: white;
+
+}
+#m2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#m3{ 
+    border: 5px solid #08080d3b;
+    background-color: white;
+
+}
+#m3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+h2{
+    background:rgb(175, 191, 2);
     text-align: center;
-    color: rgb(159, 7, 7) ;
+    font-family: var(--fonte-destaque);
+    height: 40px;
+    position:relative;
+    margin: 0px;
+    
 }
 .corpus>p{
     color: black;
+    font-family:var(--fonte-padrao);
 }
 
 aside {
