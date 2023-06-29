@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+</head>
+<style>
+    body {
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    table {
+        width: 500px;
+        border-collapse: collapse;
+    }
+
+    caption {
+        font-size: 1.3em;
+        font-weight: bolder;
+        padding: 8px;
+    }
+
+    th,td{
+        border: 1px solid black;
+        padding: 8px;
+    }
+    .destaque {
+        background-color: yellowgreen;
+    }
+    col.cnome {
+        background-color: springgreen;
+    }
+    .amarelo {
+        background-color: yellow;
+    }
+    .vermelho {
+        background-color: red;
+    }
+    /* col.cgrupo {
+        background-color: rgb(18, 174, 185);
+    } */
+       /* col.cprof, col.cidade  {
+        background-color: rgb(18, 174, 185);
+    } */
+</style>
+<body>
+    <h1>Exercícios de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho" span="2">
+            <col class="amarelo">
+        <!-- <col class="cnome">
+        <col class="cgrupo" span="3"> -->
+        <!-- <col class="csexo">
+        <col class="cidade">
+        <col class="cprof"> -->
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">t</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Luisa</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Samuell</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Artista Plástico</td>
+        </tr>        
+        <tr>
+            <td>Dr Otávio</td>
+            <td>M</td>
+            <td>52</td>
+            <td>Desembargador</td>
+        </tr>
+        <tr>
+            <td>JoséCarlos</td>
+            <td>M</td>
+            <td>52</td>
+            <td>SoftEnginer</td>
+        </tr>
+        <tr>
+            <td>Dr Vanessa</td>
+            <td>F</td>
+            <td>39</td>
+            <td>Médica</td>
+        </tr>
+    </table>
+</body>
+</html>
