@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabelas na mesma linha</title>
+  <style>
+    .tabela-container {
+      display: inline-block;
+      margin-right: 10px; /* Adicione um espaçamento horizontal entre as tabelas */
+    }
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    td {
+      height: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="tabela-container">
+    <table>
+      <tr>
+        <th>Coluna 1</th>
+        <th>Coluna 2</th>
+      </tr>
+      <tr>
+        <td>Dado 1</td>
+        <td>Dado 2</td>
+      </tr>
+      <!-- ... Resto da primeira tabela ... -->
+    </table>
+  </div>
+  
+  <div class="tabela-container">
+    <table>
+      <tr>
+        <th>Coluna A</th>
+        <th>Coluna B</th>
+      </tr>
+      <tr>
+        <td>Dado A</td>
+        <td>Dado B</td>
+      </tr>
+      <!-- ... Resto da segunda tabela ... -->
+    </table>
+  </div>
+</body>
+</html>
