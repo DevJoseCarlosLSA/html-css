@@ -10,12 +10,16 @@
     --fonte-padrao: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     --fonte-destaque: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     
     /* display: grid;
     place-items: center; */
-    margin-left: 30%;
+    /* margin-left: 30%;
     margin-right: 30%;
     margin-top: 1px;
     height: 100%;
@@ -26,7 +30,20 @@ body {
     position: absolute;
     background: rgba(5, 110, 124, 0.618) center center/cover repeat fixed;
     max-width: 900px;
-    max-height: 100px;
+    max-height: 100px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 85%;
+    width: 100vw;
+    height:100vh;
+    max-width: 900px;
+    min-width: 500px;
+    background: rgba(5, 110, 124, 0.618) url(../NiceEasy-News/imagens/laptop-1280.jpg) center center/cover repeat fixed;
+    font-family: var(--fonte-padrao);
+    text-decoration-color: rebeccapurple ;
 }
 
 header {    
