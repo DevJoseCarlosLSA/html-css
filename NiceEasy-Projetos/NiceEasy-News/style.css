@@ -203,16 +203,4 @@ h2{
 }
 .corpus>p{
     color: black;
-    font-family:var(--fonte-padrao);
-}
-
-footer {
-    font-family: var(--fonte-destaque);
-    background-image: linear-gradient(to right,rgba(5, 110, 124, 0.222), rgba(209, 247, 214, 0.483), #58a8a9,rgb(102, 171, 129), #3ea47d36);
-    box-shadow: 3px 1px 5px 1px rgba(0, 0, 0, 0.187);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.245), -2px -2px 4px rgba(255, 255, 255, 0.523); 
-    word-spacing: 1px;   
-    border-radius: 5px;
-    padding-top: 1px;
-    margin-bottom: 20px;
-}
+    font-family:v
